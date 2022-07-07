@@ -1,0 +1,6 @@
+■問題
+Q1.  q1フォルダには、サインアップ機能に関するファイルが格納されています。
+     現在格納されているファイルは、DAO、ValueObject、 UseCaseの実装がされている状態です。
+     q1フォルダ内のファイルを修正して、UseCaseが実装される前の状態に変更してみましょう。（DAO、ValueObjectが実装された状態）
+     （Daoのみの実装バージョンとも比較して修正してみましょう。）
+     https://github.com/tech-quest/Dao-snippet
