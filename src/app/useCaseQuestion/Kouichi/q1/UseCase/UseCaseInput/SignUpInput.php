@@ -1,10 +1,11 @@
 <?php
 
-namespace App\UseCase\UseCaseInput;
-require_once __DIR__ . '/../../../vendor/autoload.php';
-use App\Domain\ValueObject\UserName;
-use App\Domain\ValueObject\Email;
-use App\Domain\ValueObject\InputPassword;
+namespace App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseInput;
+
+require_once __DIR__ . '/../../../../../../vendor/autoload.php';
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\UserName;
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\Email;
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\InputPassword;
 
 /**
  * ユーザー登録ユースケースの入力値

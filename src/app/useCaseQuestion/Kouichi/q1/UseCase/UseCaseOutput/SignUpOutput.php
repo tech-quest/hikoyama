@@ -1,5 +1,5 @@
 <?php
-namespace App\Usecase\UseCaseOutput;
+namespace App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseOutput;
 
 final class SignUpOutput
 {

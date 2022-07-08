@@ -1,7 +1,7 @@
 <?php
-namespace App\Infrastructure\Dao;
+namespace App\useCaseQuestion\Kouichi\q1\Infrastructure\Dao;
 
-require_once __DIR__ . '/../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../../../vendor/autoload.php';
 
 use PDO;
 
