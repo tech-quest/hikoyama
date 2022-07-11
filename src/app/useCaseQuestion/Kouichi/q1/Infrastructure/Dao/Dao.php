@@ -1,5 +1,5 @@
 <?php
-namespace App\Infrastructure\Dao;
+namespace App\useCaseQuestion\Kouichi\q1\Infrastructure\Dao;
 
 use PDO;
 

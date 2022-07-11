@@ -1,12 +1,12 @@
 <?php
-require_once __DIR__ . '/../../vendor/autoload.php';
-require_once __DIR__ . '/../../app/Infrastructure/Redirect/redirect.php';
-use App\Domain\ValueObject\UserName;
-use App\Domain\ValueObject\Email;
-use App\Domain\ValueObject\InputPassword;
-use App\UseCase\UseCaseInput\SignUpInput;
-use App\UseCase\UseCaseInteractor\SignUpInteractor;
+require_once __DIR__ . '/../../../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../../app/useCaseQuestion/Kouichi/q1/Infrastructure/Redirect/redirect.php';
 
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\UserName;
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\Email;
+use App\useCaseQuestion\Kouichi\q1\Domain\ValueObject\InputPassword;
+use App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseInput\SignUpInput;
+use App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseInteractor\SignUpInteractor;
 $email = filter_input(INPUT_POST, 'email');
 $name = filter_input(INPUT_POST, 'userName');
 $password = filter_input(INPUT_POST, 'password');

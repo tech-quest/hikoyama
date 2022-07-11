@@ -1,6 +1,12 @@
 ■問題
-Q1.  q1フォルダには、サインアップ機能に関するファイルが格納されています。
+Q1.  以下の対象フォルダ配下には、サインアップ機能に関するファイルが格納されています。
+    ・/src/app/useCaseQuestion/Kouichi/q1/
+    ・/src/public/useCaseQuestion/Kouichi/q1/
+
      現在格納されているファイルは、DAO、ValueObject、 UseCaseの実装がされている状態です。
      q1フォルダ内のファイルを修正して、UseCaseが実装される前の状態に変更してみましょう。（DAO、ValueObjectが実装された状態）
      （Daoのみの実装バージョンとも比較して修正してみましょう。）
      https://github.com/tech-quest/Dao-snippet
+
+     修正が完了したら、以下にアクセスして、会員登録ができるか動作確認してみましょう。
+     http://localhost:8080/useCaseQuestion/Kouichi/q1/user/signup.php

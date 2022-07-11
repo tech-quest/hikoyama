@@ -1,9 +1,9 @@
 <?php
-namespace App\Usecase\UseCaseInteractor;
+namespace App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseInteractor;
 
-use App\Usecase\UseCaseInput\SignUpInput;
-use App\Usecase\UseCaseOutput\SignUpOutput;
-use App\Infrastructure\Dao\UserDao;
+use App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseInput\SignUpInput;
+use App\useCaseQuestion\Kouichi\q1\UseCase\UseCaseOutput\SignUpOutput;
+use App\useCaseQuestion\Kouichi\q1\Infrastructure\Dao\UserDao;
 
 final class SignUpInteractor
 {
