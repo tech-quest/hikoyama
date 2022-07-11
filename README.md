@@ -14,7 +14,7 @@
 ./docker-compose-local.sh up
 ```
 
-## ページ紹介
+### 5. 以下の２つにアクセスできるか確認しましょう
 
 php
 
